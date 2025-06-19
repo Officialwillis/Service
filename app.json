@@ -1,7 +1,7 @@
 {
   "name": "WhatsApp Bot",
   "description": "A WhatsApp bot built with Node.js",
-  "repository": "https:                                         
+  "repository": "https://github.com/Officialwillis/Service"                                         
   "logo": "https://example.com/logo.png",
   "keywords": ["WhatsApp", "bot", "Node.js"],
   "env": {
