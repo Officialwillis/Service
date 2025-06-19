@@ -4,7 +4,7 @@
   "description": "Best WhatsApp bot developed by Ibrahim Adams",
   "keywords": ["bot", "node", "baileys", "whatsapp"],
   "logo": "https://files.catbox.moe/2kcb4s.jpeg",
-  "repository": "https://github.com/ekitale/maths-project",
+  "repository": "",
   "success_url": "/",
   "stack": "heroku-24",
   "env": {
