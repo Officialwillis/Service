@@ -1,0 +1,41 @@
+{
+  "name": "WhatsApp Bot",
+  "description": "A WhatsApp bot built with Node.js",
+  "repository": "https:                                         
+  "logo": "https://example.com/logo.png",
+  "keywords": ["WhatsApp", "bot", "Node.js"],
+  "env": {
+    "NODE_ENV": {
+      "description": "Node.js environment",
+      "value": "production"
+    },
+    "SESSION_ID": {
+      "description": "Session ID for WhatsApp bot",
+      "required": true
+    },
+    "OWNER_NAME": {
+      "description": "Owner name",
+      "required": true
+    },
+    "OWNER_NUMBER": {
+      "description": "Owner phone number",
+      "required": true
+    },
+    "PHONE_NUMBER": {
+      "description": "WhatsApp phone number",
+      "required": true
+    }
+  },
+  "formation": {
+    "web": {
+      "quantity": 1,
+      "size": "free"
+    }
+  },
+  "addons": [],
+  "buildpacks": [
+    {
+      "url": "heroku/nodejs"
+    }
+  ]
+}
