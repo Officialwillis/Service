@@ -1,13 +1,17 @@
+
 {
-  "name": "WhatsApp Bot",
-  "description": "A WhatsApp bot built with Node.js",
-  "repository": "https://github.com/Officialwillis/Service"                                         
-  "logo": "https://example.com/logo.png",
-  "keywords": ["WhatsApp", "bot", "Node.js"],
+  "name": "BWM-XMD-QUANTUM",
+  "description": "Best WhatsApp bot developed by Ibrahim Adams",
+  "keywords": ["bot", "node", "baileys", "whatsapp"],
+  "logo": "https://files.catbox.moe/2kcb4s.jpeg",
+  "repository": "https://github.com/ekitale/maths-project",
+  "success_url": "/",
+  "stack": "heroku-24",
   "env": {
-    "NODE_ENV": {
-      "description": "Node.js environment",
-      "value": "production"
+    "PREFIX": {
+      "description": "Choose your prefix for your bot",
+      "value": ".",
+      "required": true
     },
     "SESSION_ID": {
       "description": "Session ID for WhatsApp bot",
@@ -25,14 +29,12 @@
       "description": "WhatsApp phone number",
       "required": true
     }
-  },
   "formation": {
     "web": {
       "quantity": 1,
-      "size": "free"
+      "size": "basic"
     }
   },
-  "addons": [],
   "buildpacks": [
     {
       "url": "heroku/nodejs"
